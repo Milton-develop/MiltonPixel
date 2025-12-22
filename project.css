@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+header {
+    background-color: grey;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    font-size: 25px;
+}
+section {
+    padding: 20px;
+    background-color: black;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: grey 2px solid;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: grey;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+.flyer{
+    width: 15em;
+    border: 2px solid white;
+}
+.designs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.link{
+    color: #0000FF;
+}
+@media (max-width: 600px) {
+    header, footer {
+        text-align: center;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        margin: 5px 0;
+    }
+    section {
+        padding: 15px;
+    }
+    .designs{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+}
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    nav a {
+        margin: 0 10px;
+    }
+    .designs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    }
+}
+.btnn{
+    color: white;
+    background: black;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnn:hover{
+    background: black;
+}
+.flyer-image{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+    height: auto;
+    text-align: center;
+}
+.flyer-image:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+.thank-you{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
+.tagline{
+    text-align: end;
+    font-size: 13px;
+    font-family: 'Times New Roman';
+}
+.logo1{
+    width: 80px;
+    margin: 30px;
+    height: auto;
+   float: right;
+   margin-bottom: 20px;
+}
+a{
+    color: rgb(107, 106, 106);
+}
