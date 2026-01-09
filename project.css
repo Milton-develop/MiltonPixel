@@ -50,7 +50,9 @@ footer p {
 }
 .flyer:hover, .flyer.active {
     opacity: 1;
-    transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1.4);
+     position: relative;
+    z-index: 1;
 }
 .designs{
     display: flex;
@@ -143,3 +145,4 @@ a{
     color: rgb(107, 106, 106);
 
 }
+
