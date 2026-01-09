@@ -41,6 +41,16 @@ footer p {
 .flyer{
     width: 15em;
     border: 2px solid white;
+     /* Initial State: Offset and Invisible */
+    transform: translateY(10px) scale(0.95);
+    
+    /* Transition Logic */
+    /* duration: 0.8s | timing-function: ease-out */
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+.flyer:hover, .flyer.active {
+    opacity: 1;
+    transform: translateY(0) scale(1);
 }
 .designs{
     display: flex;
@@ -131,4 +141,5 @@ footer p {
 }
 a{
     color: rgb(107, 106, 106);
+
 }
