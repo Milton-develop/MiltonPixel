@@ -20,8 +20,7 @@ h3{
     text-align: end;
 }
 .image{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    left: 83%;
+    width: 200px;
+    height: 100px;
+   float: right;
 }
