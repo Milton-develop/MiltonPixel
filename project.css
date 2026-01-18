@@ -41,7 +41,7 @@ footer p {
 .flyer{
     width: 15em;
     border: 2px solid white;
-     /* Initial State: Offset and Invisible */
+    /* Initial State: Offset and Invisible */
     transform: translateY(10px) scale(0.95);
     
     /* Transition Logic */
@@ -51,7 +51,7 @@ footer p {
 .flyer:hover, .flyer.active {
     opacity: 1;
     transform: translateY(0) scale(1.4);
-     position: relative;
+    position: relative;
     z-index: 1;
 }
 .designs{
@@ -136,14 +136,11 @@ footer p {
 }
 .logo1{
     width: 200px;
-    margin: 30px;
+    margin: 5px;
     height: auto;
    float: right;
    margin-bottom: 20px;
 }
 a{
     color: rgb(107, 106, 106);
-
 }
-
-
